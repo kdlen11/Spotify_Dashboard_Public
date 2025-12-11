@@ -29,9 +29,11 @@ The final step is to create a dashboard for the top songs and recommendations. A
 
 ## Quick Start
 
-This project utilizes UV for version control. If you are unfamiliar with UV, please see their documentation for more information on its implementation. Once you have downloaded the repository, simply run uv sync to set up all necessary packages.
-
 This project relies heavily on the Spotify API through the Spotify Developer tool. In order to run the process with actual user information, see the “Key File” section. If you do not go through this process, running in real mode will be disabled, but you will still be able to run the program in dummy mode by selecting “I don’t have spotify, show me an example” on the initial UI popup.
+
+This project utilizes UV for version control. If you are unfamiliar with UV, please see their documentation for more information on its implementation. Once you have downloaded the repository, make sure you are located at its root directory and simply run the command `uv sync` to set up all necessary packages.
+
+After successfully running `uv sync`, please run the command `uv run .\main.py` in order to summon the pop-up window to interact with our project.
 
 ## Key File
 
